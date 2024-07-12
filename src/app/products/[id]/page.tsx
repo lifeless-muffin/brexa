@@ -11,6 +11,10 @@ const Page: NextPage<Props> = ({params}: any) => {
 
 	let productDetails = productsList[params.id - 1]
 
+	let handleAddToCart = () => {
+		console.log("adding to cart")
+	}
+
 	return (
 		<div className='w-full h-auto grid grid-cols-2 gap-x-10'>
 			<ScrollUp />
@@ -35,6 +39,7 @@ const Page: NextPage<Props> = ({params}: any) => {
 					<div className="w-full mt-6"></div>
 					<PrimaryBtn
 						text="Add to Cart"
+						callback={handleAddToCart}
 					/>
 					<div className="w-full mt-3"></div>
 					<OutlinedBtn 

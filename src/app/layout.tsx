@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./ui/components/navigation/navbar";
-import ScrollUp from "./utils/scrollUp";
+import { CartProvider } from "./context/CartContext";
 
 export const metadata: Metadata = {
   title: "BREXA",
@@ -16,12 +16,13 @@ export default function RootLayout({
   return (  
     <html lang="en">
       <body>
-				<ScrollUp />
         <div className="layout_nav_wrapper">
           <Navbar />
         </div>
         <main className="pt-24">
-          {children}
+					<CartProvider>
+						{children}
+					</CartProvider>
         </main>
       </body>
     </html>

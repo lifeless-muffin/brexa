@@ -1,6 +1,5 @@
 'use client'
-
-import { useState } from 'react'
+import { useCart } from '@/app/context/CartContext'
 import { Dialog, DialogBackdrop, DialogPanel, DialogTitle } from '@headlessui/react'
 import { XMarkIcon } from '@heroicons/react/24/outline'
 
@@ -31,7 +30,10 @@ const products = [
 
 export default function CartDialog({viewStatus, updateStatus}: {viewStatus: boolean, updateStatus: any}) {
 
+	const cart = useCart()
+
   return (
+
     <Dialog open={viewStatus} onClose={() => {updateStatus(false)}} className="relative z-10">
       <DialogBackdrop
         transition
