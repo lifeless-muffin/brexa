@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Navbar from "./ui/components/navigation/navbar";
+import ScrollUp from "./utils/scrollUp";
 
 export const metadata: Metadata = {
   title: "BREXA",
@@ -15,10 +16,11 @@ export default function RootLayout({
   return (  
     <html lang="en">
       <body>
+				<ScrollUp />
         <div className="layout_nav_wrapper">
           <Navbar />
         </div>
-        <main className="pt-16">
+        <main className="pt-24">
           {children}
         </main>
       </body>

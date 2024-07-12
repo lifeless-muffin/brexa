@@ -1,8 +1,58 @@
 [
 	{
+		"id": 1,
 		"name": "AIR FORCE 1 '07 PREMIUM 'MIDNIGHT NAVY/ALE BROWN-PALE IVORY'",
 		"desc": "Score major points in this legendary classic. Crossing hardwood comfort with off-court flair, this hoops original pairs sturdy textiles with durable '80s construction and bold details for nothing-but-net style. Of course, some things never change: Nike Air units add the comfort you know and love.",
-		"price": "11,895",
-		"thumbnail": "ryan-plomp-PGTO_A0eLt4-unsplash.jpg"
+		"price": "₹11,895",
+		"thumbnail": "air-force-1-07-premium-midnight-navyale-brown-pale-ivory-blue-665820e91c218.jpg"
+	},
+	{
+		"id": 2,
+		"name": "AIR FORCE 1 '07 LV8 'LIGHT BRITISH TAN/BURGUNDY CRUSH'",
+		"desc": "These AF1s are going back to school, and they just won Best Dressed. Layers of canvas, synthetic leather and velvet create a vintage, varsity-inspired aesthetic. Don't forget to leave your mark: The sockliner graphics are inspired by school yearbooks—and we already signed it. Durable upper with stitched overlays ages to soft perfection. Originally designed for performance hoops, the Nike Air cushioning adds lightweight, all-day comfort. Padded, low-cut collar looks sleek and feels great.",
+		"price": "₹10,795",
+		"thumbnail": "air-force-1-07-lv8-light-british-tanburgundy-crush-brown-666a86b38436d.jpg"
+	}, 
+	{
+		"id": 3,
+		"name": "AIR FORCE 1 '07 NN 'HYDRANGEAS/BLACK RASPBERRY-BARELY GRAPE'",
+		"desc": "Comfortable, durable and timeless—it’s number 1 for a reason. This AF1's classic ‘80s construction pairs with bold details for style that tracks whether you’re on court or on the go.",
+		"price": "₹9,695",
+		"thumbnail": "air-force-1-07-nn-hydrangeasblack-raspberry-barely-grape-purple-66865dbe70bcc.jpg"
+	},
+	{
+		"id": 4,
+		"name": "AIR FORCE 1 SHADOW 'SAIL/HEMP-FOSSIL-LIGHT BONE-BLACK'",
+		"desc": "The Nike Air Force 1 Shadow puts a playful twist on a classic b-ball design. Using a layered approach, doubling the branding and exaggerating the midsole, it highlights AF-1 DNA with a bold, new look.",
+		"price": "₹8,995",
+		"thumbnail": "w-af1-shadow-sailhemp-fossil-lt-bone-black-623dd44f9318f.jpg"
+	},
+	{
+		"id": 5,
+		"name": "AIR FORCE 1 '07 'SAIL/LIMESTONE-PALE VANILLA-COCONUT MILK'",
+		"desc": "The radiance lives on in the Nike Air Force 1 ’07, the b-ball icon that puts a fresh spin on what you know best: durable textiles, classic colors and a subtle amount of flash to make you shine.",
+		"price": "₹9,695",
+		"thumbnail": "air-force-1-07-saillimestone-pale-vanilla-coconut-milk-cream-66508e9ee2809.jpg"
+	},
+	{
+		"id": 6,
+		"name": "AIR FORCE 1 '07 'WHITE/PHOTO BLUE'",
+		"desc": "Comfortable, durable and timeless—it’s number 1 for a reason. The ‘80s construction pairs with classic colors for style that tracks whether you’re on court or on the go.",
+		"price": "₹8,241",
+		"thumbnail": "air-force-1-07-whitephoto-blue-blue-659bd2aba3e97.jpg"
+	},
+	{
+		"id": 7,
+		"name": "AIR FORCE 1 '07 'BLACK/WHITE'",
+		"desc": "The radiance lives on with the b-ball original. Crossing hardwood comfort with off-court flair, it puts a fresh spin on what you know best: ‘80s-inspired construction, bold details and nothin’-but-net style.",
+		"price": "₹9,695",
+		"thumbnail": "air-force-1-07-blackwhite-black_1-63bbfb21984a4.jpg"
+	},
+	{
+		"id": 8,
+		"name": "AIR FORCE 1 '07 PREMIUM 'MIDNIGHT NAVY/ALE BROWN-PALE IVORY'",
+		"desc": "Score major points in this legendary classic. Crossing hardwood comfort with off-court flair, this hoops original pairs sturdy textiles with durable '80s construction and bold details for nothing-but-net style. Of course, some things never change: Nike Air units add the comfort you know and love.",
+		"price": "₹11,895",
+		"thumbnail": "air-force-1-07-premium-midnight-navyale-brown-pale-ivory-blue-665820e91c218.jpg"
 	}
 ]
