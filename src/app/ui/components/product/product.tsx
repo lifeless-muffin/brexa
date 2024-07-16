@@ -1,6 +1,7 @@
+import { nFormat } from "@/app/utils/nFormatter";
 import Image from "next/image";
 
-export default function Product({product}: {product: {name: string, desc: string, price: string, thumbnail: string}}) {
+export default function Product({product}: {product: {name: string, desc: string, price: number, thumbnail: string}}) {
 	return (
 		<div className='w-full h-full bg-dark-secondary transition-colors duration-300 hover:bg-slate-900 flex flex-col'>
 			<div className="w-full h-auto">
@@ -15,7 +16,7 @@ export default function Product({product}: {product: {name: string, desc: string
 			<div className="w-full px-4 py-6 h-full flex flex-col justify-between">
 				<h4 className="text-sm">{product.name}</h4>
 				<div className="w-full mt-4"></div>
-				<span className="text-base font-semibold">{product.price}</span>
+				<span className="text-base font-semibold">{nFormat(product.price)}</span>
 			</div>
 		</div>
 	)

@@ -16,14 +16,14 @@ export default function RootLayout({
   return (  
     <html lang="en">
       <body>
-        <div className="layout_nav_wrapper">
-          <Navbar />
-        </div>
-        <main className="pt-24">
-					<CartProvider>
-						{children}
-					</CartProvider>
-        </main>
+				<CartProvider>
+					<div className="layout_nav_wrapper">
+						<Navbar />
+					</div>
+					<main className="pt-24">
+							{children}
+					</main>
+				</CartProvider>
       </body>
     </html>
   );

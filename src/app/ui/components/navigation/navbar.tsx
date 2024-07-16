@@ -3,14 +3,14 @@
 import { Disclosure, DisclosureButton, DisclosurePanel, Menu, MenuButton, MenuItem, MenuItems } from '@headlessui/react'
 import { Bars3Icon, BellIcon, ShoppingCartIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Image from 'next/image'
-import CartDialog from './cartDialog'
-import { useState } from 'react'
+import CartDialog from '../cart/cartDialog'
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 
 const navigation = [
-  { name: 'Home', href: '#', current: true },
-  { name: 'Products', href: '#', current: false },
-  { name: 'Categories', href: '#', current: false },
+  { name: 'Home', href: '/', current: false },
+  { name: 'Products', href: '/products', current: false },
+  { name: 'Categories', href: '/categories', current: false },
 ]
 
 function classNames(...classes: any) {
@@ -19,7 +19,7 @@ function classNames(...classes: any) {
 
 export default function Navbar() {
   const [open, setOpen] = useState(false)
-		
+
   return (
     <Disclosure as="nav" className="bg-dark-secondary fixed top-0 w-full">
       <CartDialog viewStatus={open} updateStatus={setOpen} />
